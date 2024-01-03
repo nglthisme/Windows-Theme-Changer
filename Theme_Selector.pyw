@@ -2,7 +2,8 @@
 import os
 
 from time import sleep
-from apscheduler.schedulers.background import BackgroundScheduler, BlockingScheduler
+import time
+from apscheduler.schedulers.background import BlockingScheduler
 
 from random import randrange
 
@@ -41,6 +42,20 @@ def embracedark():
 
     else:
         os.popen(r"C:\Windows\Resources\Themes\themeB.theme")
+
+
+# Find local time
+t = time.localtime()
+
+# Extract the hour part
+hr = time.strftime("%H", t)
+
+#check time to apply theme on startup
+if hr >= "6":
+    joinlight
+
+if hr <= "19":
+    embracedark
 
 
 #imported scheduler to schedule each task for certain time of day
