@@ -7,5 +7,5 @@ I made an app that applies one of three default Windows themes in the morning fo
 Constant testing is being done and more updates might be on the way :)
 
 If you are interested:
-- Download and run the MSI file to install.
+- Download and run the MSI file to install
 - Follow me on IG @nglthisme
