@@ -51,12 +51,11 @@ t = time.localtime()
 hr = time.strftime("%H", t)
 
 #check time to apply theme on startup
-if hr >= "6":
-    joinlight
+if hr >= "6" or hr < "19":
+    joinlight()
 
-if hr <= "19":
-    embracedark
-
+else:
+    embracedark()
 
 #imported scheduler to schedule each task for certain time of day
 scheduler = BlockingScheduler()
