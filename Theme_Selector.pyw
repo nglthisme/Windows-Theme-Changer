@@ -7,16 +7,6 @@ from apscheduler.schedulers.background import BlockingScheduler
 
 from random import randrange
 
-# Dark themes:
-    # dark
-    # themeA
-    # themeB
-
-# Light themes:
-    # aero
-    # themeC (sunrise)
-    # themeD
-
 # changes to a random light theme with randrange by opening the file through the cmd
 def joinlight():
     light_num = randrange(3)
