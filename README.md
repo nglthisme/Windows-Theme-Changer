@@ -6,7 +6,8 @@ I made an app that applies one of three default Windows themes in the morning fo
 
 Constant testing is being done and more updates might be on the way :)
 
-Edit: Version 1 is wonky and only works on boot, Version 2 is in progress and will fix that.
+Version 1 only worked on device startup and wouldn't schedule the theme to change twice daily.
+Version 2 works around that by adding the task to Windows Task Scheduler, as well as activating on device startup.
 
 If you are interested:
 - Download and run the MSI file to install
